@@ -1,0 +1,178 @@
+body {
+    background-color: #00bfa5;
+  }  
+
+h1 {
+    text-align: center;
+    font-family: "Arial";
+    font-size: 36px;
+    color: #fff;
+    margin: 0;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Arial";
+    font-size: 36px;
+    color: #ffeb3b;
+    margin: 0;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.header_right{
+    top: 20px;
+    right: 20px;
+    position: fixed;
+    color: white;
+    font-family: "Arial";
+    font-size: 24px;
+}
+
+
+.container {
+    display: grid;
+    grid-gap: 5px;
+    width: 400px;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(4, 1fr); 
+}
+
+.message {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c83200;
+    color: #fff;
+    padding: 20px;
+    font-family: "Arial";
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 999;
+    border-radius: 10px;
+    border: 3px solid #fff ;
+}
+
+.message_loss {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c83200;
+    color: #fff;
+    padding: 20px;
+    font-family: "Arial";
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 999;
+    border-radius: 10px;
+    border: 3px solid #fff ;
+}
+
+.hidden {
+    display: none;
+}
+
+.square_closed {
+    background: url("/images/shirt.JPG");
+    border: 1px solid #ffeb3b;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background-size: cover;
+    background-color: #000;
+    border: 1px solid #ffeb3b;
+    background-position: center;
+    background-repeat: no-repeat;
+    user-select: none;
+}
+
+#restartButton {
+    display: none;
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c83200;
+    color: #fff;
+    padding: 20px;
+    font-family: "Arial";
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+input {
+    width: 30px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+  
+button {
+    cursor: pointer;
+    background-color: #00bfa5;
+    color: #fff;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-family: "Arial";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: 3px solid #ffeb3b; 
+}
+  
+.red {
+    background-color: red;
+    color: white;
+}
+  
+p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+}
+  
+#check{
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00bfa5;
+    color: #fff;
+    padding: 20px;
+    font-family: "Arial";
+    font-size: 22px;
+    font-weight: bold;
+    z-index: 999;
+    border-radius: 10px;
+    border: 3px solid #ffeb3b; 
+    text-align: center;
+}
+
+#grid-width, #grid-height{
+    background-color: #fff;
+}
+

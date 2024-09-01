@@ -1,0 +1,50 @@
+#board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  user-select: none;
+}
+
+.card:active{
+  cursor: grabbing;
+}
+
+body {
+  background-color: #00bfa5;
+}  
+
+h1 {
+  text-align: center;
+  font-family: "Arial";
+  font-size: 36px;
+  color: #fff;
+  margin: 0;
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Arial";
+  font-size: 36px;
+  color: #ffeb3b;
+  margin: 0;
+  padding-bottom: 50px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+
+
